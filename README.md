@@ -38,4 +38,14 @@ Step 4: Hide the file
 
 ```git secret hide```
 
+To remove a user use
+
+```git secret removeperson [there email]```
+
+## Backup keys
+
+To export gpg private key
+
+```gpg --armor --export-secret-key [user email]```
+
 You can use [bitwarden](https://bitwarden.com/) to backup your secret keys
