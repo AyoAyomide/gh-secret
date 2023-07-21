@@ -18,7 +18,7 @@ To import the public key of someone else (to share the secret with them for inst
 
 To list all exiting gpg keys use
 
-```git secret init```
+```gpg --list-keys```
 
 ## Using the git secret
 
@@ -28,7 +28,7 @@ Step 1: Initalize git secret
 
 Step 2: Add user as viewer
 
-```git secret add [user gpg by there email]```
+```git secret tell [user gpg by there email]```
 
 Step 3: Add a secret file
 
